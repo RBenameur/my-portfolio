@@ -1,0 +1,62 @@
+/* Declare variables */
+
+/* Universal selector */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+/* header styling for logo. nav and hero*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*width: 100%;*/
+}
+
+/* Navigation styles */
+
+header nav {
+    background: rgba(55,55,55,0.5);
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2%;
+    width: 100%;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+#hero {
+    background-position: center;
+    background-repeat: no-repeat;
+   /* background-size: auto;*/
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+main {
+    height: 100vh;
+}
+
+/* Hero styling */
+
+/* Contact information styling */
+
+/* Work styling */
+
+/* Contact styling */
+
+/* Footer styling */
